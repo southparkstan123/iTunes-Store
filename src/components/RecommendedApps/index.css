@@ -1,0 +1,18 @@
+.scale-enter {
+  opacity: 0.5;
+  transform: translateX(20px);
+}
+.scale-enter-active {
+  opacity: 1;
+  transition: all 500ms ease-in;
+  transform: translateX(0);
+}
+.scale-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+.scale-exit-active {
+  opacity: 0.5;
+  transition: all 500ms ease-in;
+  transform: translateX(20px);
+}

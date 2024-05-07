@@ -1,0 +1,7 @@
+.items::before{
+  content: attr(data-order);
+  display: inline;
+  color: darkgray;
+  font-weight: 700;
+  margin-right: 0.5rem;
+}

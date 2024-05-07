@@ -1,0 +1,18 @@
+html * {
+  @apply transition-all duration-500;
+}
+
+.app-container-enter {
+  opacity: 0;
+}
+.app-container-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in-out;
+}
+.app-container-exit {
+  opacity: 1;
+}
+.app-container-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+}
