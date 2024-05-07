@@ -27,7 +27,7 @@ The SPA for fetching the free apps and recommended apps in iOS with searching fe
 ### Start-up the app in production mode
 
 1. Run `yarn run build && yarn run preview`
-2. Open http://localhost:4173 in web browser
+2. Open http://localhost:8000 in web browser
 
 ## <i>Alternative</i> Setup the environment on Docker
 
